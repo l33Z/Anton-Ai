@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/ask": {
-        target: "http://localhost:3000",
+        target: "https://anton-ai.onrender.com/",
         changeOrigin: true,
         secure: false,
       },

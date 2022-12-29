@@ -47,7 +47,7 @@ const ChatArea = () => {
     setUserInput("");
 
     console.log(sendData);
-    const response = await fetch("http://localhost:3000/ask", {
+    const response = await fetch("https://anton-ai.onrender.com/ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
