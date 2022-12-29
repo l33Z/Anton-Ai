@@ -1,0 +1,85 @@
+.Navbar__Main {
+  min-height: 100vh;
+  height: 100vh;
+  width: 30rem;
+  background-color: #1d1e29;
+  background-color: #10101a;
+  /* background-color: #090b10; */
+  padding: 2rem;
+}
+
+.Navbar__Main h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.Navbar__Main span {
+  margin-right: 2rem;
+}
+
+.Navbar__Options {
+  margin-top: 5rem;
+}
+
+.Navbar__Options button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 0.7rem;
+  background-color: #c0e3ff14;
+  box-shadow: 0 30px 40px 0 rgb(7 0 20 / 5%), 0 4px 6px 0 rgb(7 0 20 / 5%),
+    0 10px 15px -3px rgb(7 0 20 / 10%), 0 0 0 1px rgb(7 0 20 / 6%);
+  border: 1px solid rgba(255, 255, 255, 0.121);
+}
+
+.Navbar__Options button .fa-plus {
+  margin-right: 1rem;
+}
+
+.Navbar__Options button:hover {
+  background-color: #c0e3ff30;
+  box-shadow: 0 30px 40px 0 rgb(7 0 20 / 5%), 0 4px 6px 0 rgb(7 0 20 / 5%),
+    0 10px 15px -3px rgb(7 0 20 / 10%), 0 0 0 1px rgb(7 0 20 / 6%);
+  border: 1px solid rgba(255, 255, 255, 0.263);
+}
+
+.InfoList {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tempInfo {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tempInfo label {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tempInfo h3 {
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.tempInfo p {
+  color: rgba(220, 208, 208, 0.769);
+  line-height: 2.3rem;
+  font-size: 1.4rem;
+}
+
+.lastInfoDiv {
+  margin-bottom: 0;
+}

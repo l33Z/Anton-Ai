@@ -1,0 +1,106 @@
+.ChatArea__Container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: calc(100vw - 30rem);
+  position: absolute;
+  left: 30rem;
+  top: 0;
+}
+
+.ChatArea__Main {
+  max-width: 100%;
+  height: 88%;
+  min-height: 88%;
+  max-height: 88%;
+}
+
+.Chats {
+  /* margin-top: 4rem; */
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.ChatBox {
+  display: flex;
+  background-color: #313845;
+  justify-content: center;
+  width: 100%;
+  /* padding: 1rem 0; */
+  margin-bottom: 1rem;
+}
+
+.ChatBox.user {
+  display: flex;
+  background-color: transparent;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 1rem 0;
+}
+
+.Avtar {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem;
+}
+
+.Avtar img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Avtar.user {
+  width: 4rem;
+  height: 4rem;
+}
+
+.Text-Answer {
+  width: 95%;
+}
+
+.Text-Answer p {
+  text-align: justify;
+  line-height: 2.6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.TakeInputDiv {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.194);
+  padding: 0.5rem 2rem;
+  /* position: absolute;
+  bottom: 6rem;
+  left: 0;
+  right: 0; */
+  margin: auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #313845;
+  border-radius: 1rem;
+}
+
+.TakeInputDiv .Userinput {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 1.2rem 0;
+  font-size: 1.7rem;
+}
+
+.TakeInputDiv .fa-paper-plane {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
